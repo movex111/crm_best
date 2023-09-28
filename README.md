@@ -1,3 +1,30 @@
+# Содержание
+
+- [Архитектурное описание системы](#архитектурное-описание-системы)
+  - [1. Архитектурная диаграмма](#1-архитектурная-диаграмма)
+    - [1.1. Сущности](#11-сущности)
+    - [1.2. Сервисы](#12-сервисы)
+  - [2. Подробная архитектура](#2-подробная-архитектура)
+    - [2.1. Frontend](#21-frontend)
+      - [Admin Dashboard](#admin-dashboard)
+    - [2.2. Backend](#22-backend)
+      - [API Gateway](#api-gateway)
+      - [Product Service](#product-service)
+      - [Marketplace Integration Service](#marketplace-integration-service)
+      - [Price Calculation Service](#price-calculation-service)
+      - [Parser Service](#parser-service)
+      - [Account Management Service](#account-management-service)
+    - [2.3. Дополнительные компоненты](#23-дополнительные-компоненты)
+  - [3. Процесс работы](#3-процесс-работы)
+  - [4. Технологическая диаграмма](#4-технологическая-диаграмма)
+    - [4.1. Стек](#41-стек)
+    - [4.2. Backend - CRM система](#42-backend---crm-система)
+      - [API Endpoints](#api-endpoints)
+    - [4.3. Frontend - CRM Dashboard](#43-frontend---crm-dashboard)
+      - [Components](#components)
+
+---
+
 # Архитектурное описание системы
 
 ## 1. Архитектурная диаграмма
